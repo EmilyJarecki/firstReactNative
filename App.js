@@ -13,8 +13,8 @@ export default function App() {
       </View>
       {/* <Text style={{color: '#fff'}}>Hello World, this is Emily!</Text> */}
       <View style={styles.footerContainer}>
-        <Button label="Choose a photo" />
-        <Button label="Use this photo" />
+      <Button theme="primary" label="Choose a photo" />
+      <Button label="Use this photo" />
       </View>
       <StatusBar style="auto" />
     </View>
