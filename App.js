@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image } from 'react-native';
+import ImageViewer from './components/ImageViewer';
 
 const PlaceholderImage = require('./assets/images/background-image.png');
 
@@ -7,7 +8,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.imageContainer}>
-        <Image source={PlaceholderImage} style={styles.image}/>
+        <ImageViewer placeholderImageSource={PlaceholderImage} />
       </View>
       {/* <Text style={{color: '#fff'}}>Hello World, this is Emily!</Text> */}
 
