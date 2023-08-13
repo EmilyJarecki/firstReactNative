@@ -124,7 +124,7 @@ const onSaveImageAsync = async () => {
         </EmojiPicker>
 
 
-      <StatusBar style="auto" />
+      <StatusBar style="light" />
     </GestureHandlerRootView>
   );
 }
