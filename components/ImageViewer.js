@@ -15,4 +15,4 @@ const styles = StyleSheet.create({
       height: 440,
       borderRadius: 18,
     },
-  });3
+  });
